@@ -1,0 +1,354 @@
+[
+  {
+    "id": "MOR01",
+    "categoria": "Moradia",
+    "titulo": "Minha Casa Minha Vida: quem pode participar",
+    "palavras_chave": [
+      "minha casa minha vida",
+      "mcmv",
+      "casa propria",
+      "faixa de renda",
+      "comprar casa",
+      "financiamento"
+    ],
+    "resposta": "O Minha Casa Minha Vida é o programa federal de moradia. Na cidade, ele atende famílias com renda bruta mensal de até R$ 13 mil, divididas em faixas: Faixa 1 até R$ 3.200; Faixa 2 até R$ 5.000; Faixa 3 até R$ 9.600; Faixa 4 até R$ 13.000. Quanto menor a renda, maior a ajuda do governo. Em geral, quem já tem imóvel ou já recebeu outro benefício de moradia não pode participar.",
+    "documentos": [
+      "Documento com foto (RG ou CNH)",
+      "CPF",
+      "Comprovante de renda da família",
+      "Comprovante de endereço",
+      "Certidão de nascimento ou casamento"
+    ],
+    "onde": "Faixa 1: inscrição pela Prefeitura (cadastro de demanda da COHAB-SP). Faixas 2, 3 e 4: agência da Caixa ou construtora que trabalha com o programa.",
+    "fonte": "Ministério das Cidades - Programa Minha Casa, Minha Vida (gov.br/cidades) e Portaria MCID nº 333/2026",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "MOR02",
+    "categoria": "Moradia",
+    "titulo": "Cadastro de moradia da Prefeitura (COHAB-SP)",
+    "palavras_chave": [
+      "cadastro cohab",
+      "cohab",
+      "cadastro de demanda",
+      "inscricao moradia",
+      "fila da casa",
+      "pode entrar",
+      "moradia popular",
+      "casa da prefeitura",
+      "apartamento da prefeitura"
+    ],
+    "resposta": "Para concorrer às moradias da Prefeitura de São Paulo (como o programa Pode Entrar e a Faixa 1 do Minha Casa Minha Vida), é obrigatório fazer o cadastro de demanda habitacional. Ele é gratuito, feito pela internet e precisa ser atualizado pelo menos a cada 12 meses. O cadastro não é uma fila: a escolha segue regras e prioridades (por exemplo, área de risco, mulher que sustenta a família, pessoa idosa ou com deficiência). Ninguém está autorizado a cobrar para fazer o seu cadastro.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Dados de renda e de quem mora com você"
+    ],
+    "onde": "Site cadastro.cohab.sp.gov.br. Dúvidas: telefone 156 da Prefeitura.",
+    "fonte": "COHAB-SP - Cadastro de demanda habitacional (cadastro.cohab.sp.gov.br)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "MOR03",
+    "categoria": "Moradia",
+    "titulo": "Auxílio aluguel para famílias removidas",
+    "palavras_chave": [
+      "auxilio aluguel",
+      "aluguel social",
+      "bolsa aluguel",
+      "remocao",
+      "area de risco",
+      "despejado"
+    ],
+    "resposta": "O auxílio aluguel da Secretaria Municipal de Habitação (SEHAB) é um benefício provisório para famílias que precisaram sair de casa por obra pública, desastre ou área de risco. Ele não é aberto a pedido de qualquer pessoa: a família é incluída pela própria Prefeitura quando é atendida nessas situações. Quem já recebe precisa manter o cadastro atualizado quando a SEHAB convocar. Se o despejo é de um aluguel particular, este auxílio não se aplica: procure a Defensoria Pública do Estado de São Paulo para orientação gratuita.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Documentos do atendimento feito pela SEHAB"
+    ],
+    "onde": "Secretaria Municipal de Habitação (SEHAB) ou telefone 156. Despejo de aluguel particular: Defensoria Pública do Estado de SP.",
+    "fonte": "Prefeitura de São Paulo - Secretaria Municipal de Habitação (prefeitura.sp.gov.br/web/habitacao)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "MOR04",
+    "categoria": "Moradia",
+    "titulo": "Auxílio aluguel para mulher vítima de violência",
+    "palavras_chave": [
+      "violencia domestica",
+      "mulher vitima",
+      "auxilio aluguel mulher",
+      "casa da mulher",
+      "sair de casa",
+      "agressao"
+    ],
+    "resposta": "A Prefeitura paga auxílio aluguel de R$ 400 por mês para mulheres vítimas de violência doméstica em situação de vulnerabilidade social. O pedido é feito nos serviços de atendimento à mulher, que avaliam o caso. Em perigo, ligue 190. Para orientação, ligue 180 (Central de Atendimento à Mulher), que é gratuito e funciona 24 horas.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Boletim de ocorrência ou medida protetiva, se tiver"
+    ],
+    "onde": "Casa da Mulher Brasileira, Centros de Referência da Mulher ou portal SP156.",
+    "fonte": "Prefeitura de São Paulo - Secretaria Municipal de Direitos Humanos e Cidadania, página Auxílio Aluguel",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "MOR05",
+    "categoria": "Moradia",
+    "titulo": "Regularização do imóvel: escritura (Escritura na Mão)",
+    "palavras_chave": [
+      "regularizacao",
+      "escritura",
+      "titulo de propriedade",
+      "documento da casa",
+      "imovel irregular",
+      "escritura na mao",
+      "matricula",
+      "regularizar",
+      "casa irregular",
+      "papel da casa"
+    ],
+    "resposta": "O programa Escritura na Mão, da Prefeitura de São Paulo, regulariza imóveis em núcleos habitacionais e conjuntos da COHAB e entrega o título de propriedade de graça. A Prefeitura escolhe as áreas, faz o levantamento e cadastra as famílias de cada local. Quem comprou pela COHAB e já quitou o imóvel também pode pedir a escritura. Contrato de compra e venda ou termo de doação podem servir como prova de que você mora no imóvel.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Contrato de compra e venda, recibo ou termo de doação, se tiver",
+      "Comprovante de endereço"
+    ],
+    "onde": "Secretaria Municipal de Habitação (SEHAB); mutuários da COHAB: COHAB-SP. Telefone 156.",
+    "fonte": "Prefeitura de São Paulo - SEHAB, programa Escritura na Mão; Lei Municipal 17.859/2022",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "MOR06",
+    "categoria": "Moradia",
+    "titulo": "Locação Social: aluguel mais barato da Prefeitura",
+    "palavras_chave": [
+      "locacao social",
+      "aluguel barato",
+      "aluguel da prefeitura",
+      "pagar aluguel",
+      "moradia para idoso"
+    ],
+    "resposta": "A Locação Social faz parte do programa Pode Entrar, da Prefeitura. Nela, a família mora em um imóvel público e paga um aluguel menor, de acordo com a renda. É voltada a grupos como pessoas idosas e pessoas em situação de rua. Para ser chamado, é preciso ter o cadastro de demanda da COHAB-SP em dia. Não encontramos inscrições abertas na data da verificação; confira os editais no site da COHAB-SP.",
+    "documentos": [
+      "Cadastro de demanda da COHAB-SP atualizado",
+      "Documento com foto",
+      "CPF"
+    ],
+    "onde": "Site cohab.sp.gov.br (editais) e cadastro.cohab.sp.gov.br.",
+    "fonte": "Prefeitura de São Paulo / COHAB-SP - Programa Pode Entrar",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "TRA01",
+    "categoria": "Transporte",
+    "titulo": "Ônibus grátis para pessoa idosa (60 anos ou mais)",
+    "palavras_chave": [
+      "idoso",
+      "idosa",
+      "terceira idade",
+      "60 anos",
+      "65 anos",
+      "gratuidade idoso",
+      "aposentado",
+      "anos",
+      "pago onibus",
+      "onibus de graca"
+    ],
+    "resposta": "Na cidade de São Paulo, quem tem 60 anos ou mais não paga os ônibus municipais. Dos 60 aos 64, a gratuidade vai no seu Bilhete Único cadastrado. Todo mês é preciso liberar a cota, encostando o cartão em um equipamento de recarga. Quem ainda não tem o cartão faz o cadastro no site da SPTrans e retira o cartão em um Posto de Atendimento; enquanto isso, pode embarcar mostrando documento oficial com foto. A partir de 65 anos: peça o Bilhete Único Especial da Pessoa Idosa ou mostre documento com foto ao motorista. Metrô, trem e EMTU seguem regras do Estado.",
+    "documentos": [
+      "Documento oficial com foto (RG, CNH ou CIE)",
+      "CPF, se não constar no documento",
+      "Comprovante de residência recente",
+      "Foto 3x4 (no cadastro de 60 a 64 anos)"
+    ],
+    "onde": "60 a 64 anos: site bilheteunico.sptrans.com.br e Posto de Atendimento SPTrans. 65 anos ou mais: sptrans.com.br/atendimento ou postos nas subprefeituras (agendamento pelo Descomplica SP). Telefone 156.",
+    "fonte": "SPTrans - Perguntas e respostas: gratuidade 60 a 64 anos e Bilhete Único Especial da Pessoa Idosa; Decreto Municipal 62.057/2022",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "TRA02",
+    "categoria": "Transporte",
+    "titulo": "Como tirar o Bilhete Único comum",
+    "palavras_chave": [
+      "bilhete unico",
+      "tirar bilhete",
+      "cartao de onibus",
+      "fazer bilhete",
+      "primeira via",
+      "segunda via"
+    ],
+    "resposta": "O Bilhete Único comum é o cartão para pagar ônibus, metrô e trem em São Paulo. Primeiro faça o cadastro no site da SPTrans. Depois peça o cartão: pelo site, com entrega em casa em até 10 dias úteis (paga frete, aceita PIX), ou no Posto de Atendimento, com retirada na hora. Cada pessoa pode ter só um Bilhete Único comum. A primeira via não tem custo; a segunda via é cobrada.",
+    "documentos": [
+      "CPF",
+      "Documento com foto",
+      "Endereço completo para o cadastro"
+    ],
+    "onde": "Site bilheteunico.sptrans.com.br ou Postos de Atendimento SPTrans.",
+    "fonte": "SPTrans - Bilhete Único Comum (bilheteunico.sptrans.com.br/comum)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "TRA03",
+    "categoria": "Transporte",
+    "titulo": "Integração: vários ônibus pagando uma tarifa",
+    "palavras_chave": [
+      "integracao",
+      "baldeacao",
+      "trocar de onibus",
+      "tarifa",
+      "quanto custa",
+      "preco da passagem",
+      "tres horas"
+    ],
+    "resposta": "Com o Bilhete Único você pode pegar até 4 ônibus diferentes em 3 horas pagando uma só tarifa. Na tarifa integrada com metrô ou trem, são até 3 ônibus em 3 horas e uma entrada no metrô ou trem nas 2 primeiras horas. Os valores mudam com o tempo; confira a tabela atual de tarifas no site da SPTrans antes de recarregar.",
+    "documentos": [
+      "Bilhete Único com crédito"
+    ],
+    "onde": "Tabela de tarifas: sptrans.com.br/tarifas.",
+    "fonte": "SPTrans - Tarifas (sptrans.com.br/tarifas)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "TRA04",
+    "categoria": "Transporte",
+    "titulo": "Bilhete Único de Estudante (meia tarifa ou passe livre)",
+    "palavras_chave": [
+      "estudante",
+      "meia passagem",
+      "passe livre",
+      "escola",
+      "faculdade",
+      "aluno",
+      "meia tarifa"
+    ],
+    "resposta": "O Bilhete Único de Estudante dá meia tarifa ou gratuidade no ônibus, metrô e trem. A gratuidade (passe livre) vale, por exemplo, para alunos do ensino fundamental e médio da rede pública. Outros estudantes podem ter meia tarifa. A escola precisa informar a matrícula à SPTrans e o cartão deve ser renovado todo ano. Quem já tem outra gratuidade (idoso ou PcD) não acumula com a de estudante.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Matrícula informada pela instituição de ensino",
+      "Foto 3x4 se pedida no cadastro"
+    ],
+    "onde": "Site estudante.sptrans.com.br.",
+    "fonte": "SPTrans - Bilhete Único de Estudante (estudante.sptrans.com.br) e Perguntas e respostas SPTrans",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "TRA05",
+    "categoria": "Transporte",
+    "titulo": "Bilhete Único Especial da Pessoa com Deficiência",
+    "palavras_chave": [
+      "deficiencia",
+      "deficiente",
+      "pcd",
+      "cadeirante",
+      "bilhete especial",
+      "acompanhante",
+      "laudo",
+      "pago onibus"
+    ],
+    "resposta": "Pessoa com deficiência que mora em São Paulo, na Região Metropolitana ou em Jundiaí, Campo Limpo Paulista e Vargem Paulista pode ter o Bilhete Único Especial, que dá gratuidade nos ônibus e trens. A emissão é gratuita. É preciso comprovar a deficiência com laudo médico conforme as regras da SPTrans. Em alguns casos, o acompanhante também tem direito. A renovação pode ser pedida até 60 dias antes do vencimento.",
+    "documentos": [
+      "Documento com foto",
+      "CPF",
+      "Comprovante de endereço",
+      "Laudo médico no modelo exigido pela SPTrans"
+    ],
+    "onde": "Atendimento digital atendimento.sptrans.com.br ou Postos de Atendimento SPTrans.",
+    "fonte": "SPTrans - Perguntas e respostas: Bilhete PcD (sptrans.com.br/perguntas-e-respostas)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "TRA06",
+    "categoria": "Transporte",
+    "titulo": "Linhas de ônibus, itinerário e horário de chegada",
+    "palavras_chave": [
+      "linha de onibus",
+      "itinerario",
+      "que onibus pego",
+      "horario do onibus",
+      "olho vivo",
+      "ponto de onibus",
+      "previsao",
+      "qual onibus",
+      "que linha",
+      "onibus pego"
+    ],
+    "resposta": "Para saber qual ônibus pegar e quando ele chega, use o Olho Vivo da SPTrans. Em 'De Olho na Linha' você digita o número ou nome da linha e vê os ônibus no trajeto. Em 'De Olho no Ponto' você vê as linhas que estão chegando a uma parada. A previsão por parada funciona melhor nos corredores monitorados. Aplicativos de celular que usam os dados do Olho Vivo também mostram essa informação.",
+    "documentos": [
+      "Não precisa de documento"
+    ],
+    "onde": "Site olhovivo.sptrans.com.br ou sptrans.com.br (Acompanhe e planeje sua viagem). Telefone 156.",
+    "fonte": "SPTrans - Olho Vivo (olhovivo.sptrans.com.br)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "ENE01",
+    "categoria": "Energia em casa",
+    "titulo": "Conta de luz grátis até 80 kWh (Tarifa Social / Luz do Povo)",
+    "palavras_chave": [
+      "conta de luz",
+      "tarifa social",
+      "luz do povo",
+      "energia gratis",
+      "desconto na luz",
+      "80 kwh",
+      "energia eletrica",
+      "luz",
+      "cadunico",
+      "cadastro unico",
+      "cras"
+    ],
+    "resposta": "Pelo programa Luz do Povo, famílias de baixa renda não pagam a energia consumida até 80 kWh por mês. Têm direito: famílias no CadÚnico com renda de até meio salário mínimo por pessoa; idosos com 65 anos ou mais e pessoas com deficiência que recebem o BPC; e famílias indígenas e quilombolas no CadÚnico. Não precisa pedir: o desconto entra sozinho na conta se o CadÚnico estiver atualizado e a conta de luz estiver no nome de alguém da família.",
+    "documentos": [
+      "CadÚnico atualizado",
+      "Conta de luz em nome de alguém da família"
+    ],
+    "onde": "Se o desconto não aparecer na conta: distribuidora de energia, Disque 121 ou plataforma Fala.BR. Para fazer ou atualizar o CadÚnico: CRAS (agendamento no Portal do CRAS) ou Descomplica SP; telefone 156 para achar o CRAS mais perto.",
+    "fonte": "Ministério de Minas e Energia - Luz do Povo (gov.br/mme/pt-br/luzdopovo); Lei 15.235/2025; Prefeitura de SP (SMADS) - CadÚnico",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "ENE02",
+    "categoria": "Energia em casa",
+    "titulo": "Desconto Social na conta de luz (até 120 kWh)",
+    "palavras_chave": [
+      "desconto social",
+      "120 kwh",
+      "conta de luz cara",
+      "luz mais barata",
+      "um salario minimo"
+    ],
+    "resposta": "Desde 1º de janeiro de 2026, famílias no CadÚnico com renda entre meio e um salário mínimo por pessoa recebem o Desconto Social: deixam de pagar um encargo da conta (a CDE) no consumo de até 120 kWh por mês. Assim como a Tarifa Social, o desconto é automático para quem tem o CadÚnico em dia.",
+    "documentos": [
+      "CadÚnico atualizado",
+      "Conta de luz em nome de alguém da família"
+    ],
+    "onde": "Distribuidora de energia, Disque 121 ou CRAS para atualizar o CadÚnico.",
+    "fonte": "Ministério de Minas e Energia - Luz do Povo (gov.br/mme)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "ENE03",
+    "categoria": "Energia em casa",
+    "titulo": "Energia solar compensa? Telhado próprio ou assinatura solar",
+    "palavras_chave": [
+      "solar",
+      "energia solar",
+      "placa solar",
+      "painel solar",
+      "fotovoltaica",
+      "assinatura de energia",
+      "geração compartilhada",
+      "energia renovável"
+    ],
+    "resposta": "Estimativa para uma família que gasta cerca de 190 kWh/mês (conta de ~R$ 180): um sistema solar no telhado de 1,6 kWp custa por volta de R$ 5.100 e baixa a conta para ~R$ 39, se pagando em cerca de 4 anos. Mas só serve para casa com telhado próprio e sem sombra, e, se for financiado em 60 meses, a parcela (~R$ 140) quase empata com a economia. Em apartamento, a opção renovável é a assinatura de energia solar (geração compartilhada): sem obra e sem investimento, com desconto típico de 10% a 20% sobre a energia (~R$ 23/mês nesse exemplo). Leia o contrato (fidelidade e multa). Desde 2023 quem gera paga parte do uso da rede (Fio B: 60% em 2026), o que reduz a economia. Antes de pensar em solar, veja se tem direito à Tarifa Social. Simule com o seu consumo na opção 5 do menu. Valores estimados, não garantidos.",
+    "documentos": [
+      "Conta de luz com o consumo médio dos últimos 12 meses"
+    ],
+    "onde": "Empresas instaladoras ou de assinatura de energia solar; o pedido de conexão é feito à Enel SP",
+    "fonte": "Lei 14.300/2022 (marco legal da geração distribuída, art. 27); ANEEL REN 1.000/2021; ANEEL REH 3.596/2026 (tarifa Enel SP); cálculo da equipe em energia/ (estimativa)",
+    "verificado_em": "2026-11-16"
+  }
+]
