@@ -1,0 +1,57 @@
+[
+  {
+    "id": "energia-01",
+    "categoria": "Energia em casa",
+    "titulo": "Tarifa Social de Energia Elétrica (luz grátis até 80 kWh)",
+    "palavras_chave": ["tarifa social", "luz de graça", "desconto na luz", "conta de luz", "baixa renda", "cadunico", "80 kwh"],
+    "resposta": "Famílias de baixa renda podem ter a Tarifa Social: os primeiros 80 kWh do mês ficam de graça; o que passar disso é cobrado normalmente. Tem direito quem está no CadÚnico com renda de até meio salário mínimo por pessoa, quem recebe BPC, indígenas e quilombolas no CadÚnico e famílias com renda de até 3 salários mínimos que usam aparelho médico elétrico em casa. A Enel SP aplica automaticamente quando o NIS está ligado à conta.",
+    "documentos": ["CadÚnico atualizado (NIS)", "Número da instalação (está na conta de luz)"],
+    "onde": "CRAS da Prefeitura de São Paulo (CadÚnico) e canais de atendimento da Enel SP",
+    "fonte": "MME/ANEEL - MP 1.300/2025 convertida na Lei 15.235/2025, vigente desde 05/07/2025 (gov.br/mme)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "energia-02",
+    "categoria": "Energia em casa",
+    "titulo": "Como economizar na conta de luz sem gastar",
+    "palavras_chave": ["economizar", "conta de luz", "chuveiro", "banho", "energia", "gasto de luz"],
+    "resposta": "Em casas populares de SP, o chuveiro elétrico costuma ser o maior gasto (quase metade da conta na nossa família de referência, estimada). Reduzir o banho de 8 para 5 minutos por pessoa pode economizar cerca de 33 kWh por mês, uns R$ 30 numa família de 4 pessoas (estimativa com a tarifa Enel SP 2026/27). Use a posição 'verão' quando estiver calor e não deixe a porta da geladeira aberta. Para simular com o seu consumo, use a opção 'Simular economia na conta de luz' do menu.",
+    "documentos": [],
+    "onde": "Em casa. Simulação: menu do Rumo",
+    "fonte": "Cálculo da equipe com tarifa Enel SP (ANEEL REH 3.596/2026); premissas em energia/dados/premissas_energia.json",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "energia-03",
+    "categoria": "Energia em casa",
+    "titulo": "Trocar lâmpadas por LED e geladeira antiga por uma eficiente",
+    "palavras_chave": ["lampada", "lâmpada", "led", "geladeira", "procel", "troca de geladeira", "eficiencia"],
+    "resposta": "Trocar 6 lâmpadas fluorescentes de 20 W por LED de 9 W economiza cerca de 10 kWh/mês (perto de R$ 9) e se paga em menos de 1 ano. Uma geladeira antiga de 2 portas pode gastar o dobro de uma nova classe A: troca estimada de 55 para 30 kWh/mês, cerca de R$ 24 por mês. Comprada, leva uns 9 anos para se pagar, mas a Enel SP tem um programa de troca gratuita de geladeiras e lâmpadas para famílias selecionadas (Enel Compartilha Eficiência). Ao comprar, compare o consumo em kWh/mês na etiqueta do Inmetro.",
+    "documentos": ["Conta de luz recente (para participar de programas da Enel)"],
+    "onde": "Enel SP - programa Enel Compartilha Eficiência (ações em bairros e prefeituras)",
+    "fonte": "Programa de Eficiência Energética da ANEEL (PEE); etiqueta Inmetro/Procel; cálculo da equipe (estimativa)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "energia-04",
+    "categoria": "Energia em casa",
+    "titulo": "Energia solar compensa para minha casa?",
+    "palavras_chave": ["solar", "energia solar", "placa solar", "painel solar", "fotovoltaica", "assinatura de energia"],
+    "resposta": "Para uma família que gasta cerca de 190 kWh/mês, um sistema solar no telhado de 1,6 kWp custa por volta de R$ 5.100 (estimativa) e baixa a conta de ~R$ 180 para ~R$ 39, se pagando em cerca de 4 anos. Mas só serve para casa com telhado próprio e sem sombra. Se for financiado, a parcela (~R$ 140 em 60 meses) quase empata com a economia. Em apartamento, a opção renovável é a assinatura de energia solar (geração compartilhada): sem obra e sem investimento, com desconto típico de 10% a 20%. Leia o contrato: veja fidelidade e multa. Desde 2023 quem gera paga parte do uso da rede (Fio B, 60% em 2026), o que reduz a economia.",
+    "documentos": ["Conta de luz (consumo médio dos últimos 12 meses)"],
+    "onde": "Empresas instaladoras ou de assinatura solar; conexão é pedida à Enel SP",
+    "fonte": "Lei 14.300/2022 (geração distribuída); ANEEL REN 1.000/2021; Greener 2025 (preço de sistemas); cálculo da equipe (estimativa)",
+    "verificado_em": "2026-11-16"
+  },
+  {
+    "id": "energia-05",
+    "categoria": "Energia em casa",
+    "titulo": "Quanto custa o kWh da Enel em São Paulo",
+    "palavras_chave": ["kwh", "tarifa", "preço da luz", "valor do kwh", "enel", "reajuste"],
+    "resposta": "Desde 04/07/2026, a tarifa residencial da Enel SP é de R$ 0,789 por kWh sem impostos (TUSD R$ 0,472 + TE R$ 0,317), em bandeira verde. Com ICMS e PIS/COFINS fica perto de R$ 0,95 por kWh para quem gasta de 91 a 200 kWh. Até 90 kWh não há ICMS em SP. Bandeiras amarela e vermelha aumentam a conta.",
+    "documentos": [],
+    "onde": "Site da ANEEL ou da Enel SP (tabela de tarifas)",
+    "fonte": "ANEEL - Resolução Homologatória 3.596/2026; Lei SP 12.185/2006 (ICMS)",
+    "verificado_em": "2026-11-16"
+  }
+]

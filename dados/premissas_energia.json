@@ -1,0 +1,114 @@
+{
+  "_sobre": "Premissas da análise de energia (SERS) do assistente Rumo. Cada valor tem origem, unidade e data. 'tipo' = 'oficial' (copiado de norma/órgão público), 'secundaria' (publicado por imprensa/setor citando fonte oficial; conferir no original) ou 'estimativa' (premissa da equipe, justificada). Levantamento feito em 16/11/2026.",
+
+  "tarifa": {
+    "distribuidora": "Enel Distribuição São Paulo",
+    "subgrupo": "B1 Residencial (convencional)",
+    "tusd_r_kwh": 0.47242,
+    "te_r_kwh": 0.31696,
+    "unidade": "R$/kWh, sem tributos, bandeira verde",
+    "vigencia": "04/07/2026 a 03/07/2027",
+    "origem": "ANEEL, Resolução Homologatória nº 3.596/2026 (30/06/2026), reajuste anual Enel SP; valores reproduzidos na página de tarifas da Enel SP (enel.com.br/pt-saopaulo/Para_Voce/tarifa-energia-eletrica.html): TUSD 472,42 R$/MWh e TE 316,96 R$/MWh",
+    "tipo": "oficial",
+    "conferido": "Valores conferidos pela equipe no PDF da REH 3.596/2026 publicado pela Enel SP (linha B1 Residencial) em 18/11/2026."
+  },
+
+  "tributos": {
+    "icms_faixas_sp": [
+      {"ate_kwh": 90, "aliquota": 0.0},
+      {"ate_kwh": 200, "aliquota": 0.12},
+      {"ate_kwh": null, "aliquota": 0.18}
+    ],
+    "icms_regra": "A alíquota é escolhida pela faixa do consumo TOTAL do mês e aplicada sobre a conta inteira (não é progressiva).",
+    "icms_origem": "Lei SP 12.185/2006 e Decreto 50.473/2006 (isenção até 90 kWh; 12% de 91 a 200 kWh); teto de 18% para serviços essenciais (LC 194/2022, aplicado por SP desde 2022).",
+    "icms_tipo": "oficial",
+    "pis_cofins": 0.0533,
+    "pis_cofins_origem": "Conta de luz real da Enel SP conferida pela equipe em 18/11/2026: PIS 0,95% + COFINS 4,38% = 5,33%. As alíquotas variam um pouco de mês a mês (regime não cumulativo), então é o valor de uma conta, não uma média.",
+    "pis_cofins_tipo": "conta real (varia por mês)",
+    "formula": "valor_com_tributos = valor_sem_tributos / (1 - pis_cofins - icms)  (tributos 'por dentro', como na conta de luz)",
+    "nao_incluido": "Contribuição de iluminação pública (COSIP, taxa da Prefeitura) e bandeiras amarela/vermelha não entram no cálculo padrão."
+  },
+
+  "tarifa_social": {
+    "nome": "Tarifa Social de Energia Elétrica (TSEE)",
+    "regra": "Gratuidade de 100% na tarifa para os primeiros 80 kWh/mês; o que passar de 80 kWh é cobrado normalmente.",
+    "quem_tem_direito": "Famílias no CadÚnico com renda por pessoa de até meio salário mínimo; famílias com BPC; famílias no CadÚnico com renda de até 3 salários mínimos e pessoa que usa aparelho médico elétrico contínuo; indígenas e quilombolas no CadÚnico.",
+    "origem": "MP 1.300/2025, convertida na Lei 15.235/2025; vigência desde 05/07/2025 (MME, 'Gratuidade até 80 kWh mensais para beneficiários da TSEE começa em julho', gov.br/mme).",
+    "tipo": "oficial",
+    "como_pedir": "Ter CadÚnico atualizado (CRAS da Prefeitura). A Enel SP aplica automaticamente quando o NIS está ligado à conta; se não aplicar, pedir pelos canais da Enel SP com NIS e número da instalação.",
+    "kwh_gratis": 80
+  },
+
+  "fator_emissao": {
+    "valor_tco2_mwh": 0.0461,
+    "valor_kgco2_kwh": 0.0461,
+    "ano": 2025,
+    "origem": "MCTI/SIRENE, fatores de emissão de CO2 da energia elétrica do SIN, método 'fator médio' para inventários, média anual de 2025. Mensais divulgados pelo MCTI: jan/2025 0,0237; fev 0,0248; mar 0,0215; abr 0,0289 tCO2/MWh.",
+    "tipo": "oficial",
+    "conferido": "Média anual de 2025 (0,0461 tCO2/MWh) conferida pela equipe na planilha do MCTI/SIRENE em 18/11/2026.",
+    "observacao": "A rede brasileira é muito limpa (hidrelétricas, eólica, solar). Por isso o CO2 evitado por kWh economizado é pequeno comparado a países que usam carvão."
+  },
+
+  "emissao_ciclo_vida_fv": {
+    "valor_kgco2eq_kwh": 0.041,
+    "origem": "IPCC AR5 (2014), WG III, Anexo III, Tabela A.III.2: mediana do ciclo de vida da solar fotovoltaica em telhado = 41 gCO2eq/kWh (fabricação dos painéis, transporte, instalação).",
+    "tipo": "oficial",
+    "uso": "Mostra que, comparada com a rede brasileira (~46 g/kWh), a solar quase empata em CO2 no ciclo de vida. O benefício ambiental real está em reduzir o uso de termelétricas nos horários de sol e em não precisar de novas usinas, não em 'zerar' emissões."
+  },
+
+  "solar": {
+    "geracao_kwh_por_kwp_mes": 100,
+    "geracao_origem": "ESTIMATIVA. Irradiação média em São Paulo ~4,5 kWh/m²·dia (ordem de grandeza do CRESESB/SunData e do Atlas Brasileiro de Energia Solar, INPE 2017) × 30 dias × Performance Ratio 0,75 (perdas de temperatura, inversor, sujeira; valor de referência de material do IEE-USP) ≈ 100 kWh por kWp instalado por mês. Varia no ano (menos no inverno).",
+    "geracao_tipo": "estimativa",
+    "custo_r_por_wp": 3.20,
+    "custo_origem": "ESTIMATIVA. Greener (estudo 1º sem. 2025): sistema residencial de 4 kWp ≈ R$ 11.360 (≈ R$ 2,84/Wp). Sistemas pequenos (1–2 kWp, caso de moradia popular) custam mais por Wp; usamos R$ 3,20/Wp (+~13%).",
+    "custo_tipo": "estimativa",
+    "vida_util_anos": 25,
+    "degradacao_ao_ano": 0.005,
+    "manutencao_r_ano": 150,
+    "manutencao_origem": "ESTIMATIVA: limpeza/inspeção anual simples.",
+    "inversor_troca_r": 2500,
+    "inversor_troca_ano": 12,
+    "inversor_origem": "ESTIMATIVA: microinversor/inversor pequeno trocado uma vez na vida útil.",
+    "fracao_autoconsumo": 0.30,
+    "autoconsumo_origem": "ESTIMATIVA: parte da energia usada na hora em que é gerada (geladeira, TV de dia). O resto vai para a rede e vira crédito.",
+    "fio_b_r_kwh": 0.20,
+    "fio_b_origem": "ESTIMATIVA. O 'Fio B' é a parte da TUSD que remunera a rede da distribuidora. Usamos ~R$ 0,20/kWh (cerca de 42% da TUSD). Conferir o valor da TUSD Fio B da Enel SP na REH 3.596/2026.",
+    "fio_b_percentual_cobrado_2026": 0.60,
+    "fio_b_regra": "Lei 14.300/2022, art. 27: para quem pediu conexão depois de 07/01/2023, sobre a energia injetada e compensada paga-se 15% do Fio B em 2023, 30% em 2024, 45% em 2025, 60% em 2026, 75% em 2027, 90% em 2028; depois de 2029, regra definida pela ANEEL.",
+    "fio_b_tipo": "oficial (percentual) / estimativa (valor em R$)",
+    "custo_disponibilidade_kwh": {"monofasico": 30, "bifasico": 50, "trifasico": 100},
+    "disponibilidade_origem": "ANEEL, REN 1.000/2021: consumo mínimo faturado por tipo de ligação; quem gera energia continua pagando pelo menos esse mínimo.",
+    "financiamento_juros_mes": 0.018,
+    "financiamento_meses": 60,
+    "financiamento_origem": "ESTIMATIVA: linhas de crédito para energia solar de pessoa física costumam cobrar entre 1,5% e 2,5% ao mês; usamos 1,8% a.m. em 60 parcelas (tabela Price). Conferir a taxa real (CET) com o banco.",
+    "assinatura_desconto": 0.15,
+    "assinatura_origem": "ESTIMATIVA: empresas de geração compartilhada (assinatura de energia solar) costumam oferecer de 10% a 20% de desconto sobre a energia compensada, sem investimento. Usamos 15%. Verificar contrato, fidelidade e se aceitam o perfil da família."
+  },
+
+  "eficiencia": {
+    "preco_led_r": 12.0,
+    "preco_led_origem": "ESTIMATIVA: lâmpada LED 9 W bulbo, preço comum no varejo de SP em nov/2026.",
+    "preco_geladeira_r": 2600.0,
+    "preco_geladeira_origem": "ESTIMATIVA: geladeira frost free ~300 L com etiqueta Inmetro/Procel classe A, preço de varejo em nov/2026. Pode sair de graça pelo programa Enel Compartilha Eficiência (PEE/ANEEL), que troca geladeiras de famílias selecionadas.",
+    "consumo_geladeira_antiga_kwh_mes": 55,
+    "consumo_geladeira_antiga_origem": "ESTIMATIVA: geladeira de 2 portas com mais de 10 anos. IDEC publicou média de 48,2 kWh/mês para 2 portas; aparelhos velhos, com borracha gasta, gastam mais. O ideal é ler a etiqueta do aparelho.",
+    "consumo_geladeira_nova_kwh_mes": 30,
+    "consumo_geladeira_nova_origem": "ESTIMATIVA: faixa de etiqueta Inmetro de modelos frost free classe A de ~300 L (cerca de 25–35 kWh/mês). Conferir a etiqueta do modelo escolhido.",
+    "vida_util_geladeira_anos": 15,
+    "vida_util_led_anos": 10
+  },
+
+  "familia_referencia": {
+    "_aviso": "PERFIL ESTIMADO, não é uma família real. Serve para mostrar o método. Na conversa, o usuário pode digitar o consumo da própria conta.",
+    "descricao": "Família de 4 pessoas em apartamento de conjunto habitacional (MCMV Faixa 1 ou aluguel social), São Paulo, ligação monofásica.",
+    "aparelhos": [
+      {"nome": "Chuveiro elétrico", "potencia_w": 5500, "horas_dia": 0.533, "dias_mes": 30, "obs": "4 banhos de 8 min por dia"},
+      {"nome": "Geladeira antiga (2 portas, +10 anos)", "kwh_mes_fixo": 55, "obs": "ver eficiencia.consumo_geladeira_antiga"},
+      {"nome": "Lâmpadas (6 fluorescentes compactas de 20 W)", "potencia_w": 120, "horas_dia": 5, "dias_mes": 30},
+      {"nome": "TV", "potencia_w": 100, "horas_dia": 5, "dias_mes": 30},
+      {"nome": "Máquina de lavar e ferro", "kwh_mes_fixo": 8},
+      {"nome": "Outros (celulares, ventilador, micro-ondas)", "kwh_mes_fixo": 5}
+    ]
+  }
+}
